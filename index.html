@@ -1,0 +1,48 @@
+<html lang="en">
+    <head>
+        <title>DelVer Specification</title>
+        <link rel="stylesheet" href="container.css">
+    </head>
+    <body class="container">
+        <h1>DelVer</h1>
+        <p>DelVer is based off of <a href="">Semantic Versioning 2.0</a>, DelVer is currently used on the majority of projects by Discord Extreme List (bot, website, lgbt-website, blog-casper, etc.)</p>
+        <br />
+        <h2>Structure</h2>
+        <p>The structure (by release type) for DelVer is shown below:</p>
+        <h3>Production/Stable Releases</h3>
+        <p>vX.X.X-Release</p>
+        <p><strong>Example:</strong> v1.0.0-Release</p>
+        <h3>Beta Releases</h3>
+        <p>vX.X.X-Beta.X</p>
+        <p><strong>Example:</strong> v1.0.0-Beta.1</p>
+        <h3>Alpha Releases</h3>
+        <p>vX.X.X-Alpha.X</p>
+        <p><strong>Example:</strong> v1.0.0-Alpha.1</p>
+        <br />
+        <h2>Versioning Layout</h2>
+        <p>The verisoning layout for DelVer is shown below:</p>
+        <h3>Production/Stable Releases</h3>
+        <p>vA.B.C</p>
+        <p>
+            A signifies Critical Update - Critical updates are a complete redesign of the frontend theme(s) or a complete rewrite of the backend code.
+            <br />
+            B signifies Feature Update - A feature update is an update that includes features such as Vanity URLs, etc.
+            <br />
+            C signifies Minor Update - Minor updates are typically either hotfixes, bug fixes or very minor feature adjustments.
+        </p>
+        <h3>Beta/Alpha Releases</h3>
+        <p>vA.B.C-Channel.D</p>
+        <p>
+            A signifies Critical Update - Critical updates are a complete redesign of the frontend theme(s) or a complete rewrite of the backend code.
+            <br />
+            B signifies Feature Update - A feature update is an update that includes features such as Vanity URLs, etc.
+            <br />
+            C signifies Minor Update - Minor updates are typically either hotfixes, bug fixes or very minor feature adjustments.
+            <br />
+            <br />
+            Channel signifies the release channel - Either Alpha or Beta.
+            <br />
+            D signifies the Alpha/Beta version - There can be multiple Alpha and Beta builds for a single version.
+        </p>
+    </body>
+</html>
